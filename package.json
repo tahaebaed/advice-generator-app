@@ -1,0 +1,17 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.1"
+  }
+}

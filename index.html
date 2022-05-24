@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style/css/sass/index.css" />
+    <title>Advice generator app</title>
+  </head>
+  <body>
+    <!-- Start your challenge -->
+    <section>
+      <div class="advise-card">
+        <p id="advice-id" class="advise-card-title"></p>
+        <q id="advice-details" class="advise-card-body"></q>
+        <picture>
+          <source
+            srcset="./images/pattern-divider-mobile.svg"
+            media="(max-width: 550px)" />
+          <img
+            class="advise-divider"
+            src="./images/pattern-divider-desktop.svg"
+        /></picture>
+        <button id="generator-btn" class="advise-card-btn">
+          <img src="./images/icon-dice.svg" alt="advise generator button" />
+        </button>
+      </div>
+    </section>
+  </body>
+  <script src="./js/script.js"></script>
+</html>

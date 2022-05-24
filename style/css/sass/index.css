@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope;
+  background-color: hsl(217deg, 19%, 24%);
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.advise-card {
+  background-color: hsl(217deg, 19%, 38%);
+  padding: 2rem 2rem 0;
+  border-radius: 5px;
+  width: clamp(300px, 87.5vw, 500px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.advise-card .advise-card-title {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+.advise-card .advise-card-body {
+  display: block;
+  color: hsl(193deg, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.advise-card .advise-divider {
+  filter: drop-shadow(0px 1px 0px hsl(218deg, 23%, 16%));
+  margin: 1rem 0 0;
+}
+.advise-card .advise-card-btn {
+  cursor: pointer;
+  padding: 0.9rem 0.9rem 0.7rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(150deg, 100%, 66%);
+  position: relative;
+  bottom: -25px;
+}
+.advise-card .advise-card-btn img {
+  width: 20px;
+}
+.advise-card .advise-card-btn:hover {
+  background-color: #85ffc2;
+  box-shadow: 0px 0px 11px 0px #85ffc2;
+}
