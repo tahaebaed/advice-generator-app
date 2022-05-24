@@ -13,9 +13,8 @@ You should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [challnge](https://github.com/tahaebaed/advice-generator-app)
+- Live Site URL: [live stream](https://advice-generator-app-teal.vercel.app/)
 ## My process
 
 ### Built with
