@@ -34,5 +34,5 @@ You should be able to:
 ### Useful resources
 
 - [clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp) - This helped me to set the card width to be responsive with the screens responsive
-- [<picture></picture> element tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+- [picture element tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - this helped me to set another scr to the divider src with setsrc attribute on respoinsve screens
 # advice-generator-app
